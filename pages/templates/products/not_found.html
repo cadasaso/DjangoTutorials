@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+
+{% block title %}No encontrado{% endblock %}
+
+{% block content %}
+  <h1>Producto no encontrado</h1>
+  <p>Ese producto no existe.</p>
+  <a href="{% url 'products' %}">Volver a productos</a>
+{% endblock %}
