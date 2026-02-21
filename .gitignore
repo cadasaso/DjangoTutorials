@@ -1,0 +1,17 @@
+# venv
+.venv/
+venv/
+
+# python
+__pycache__/
+*.pyc
+
+# django
+db.sqlite3
+*.log
+
+# vscode
+.vscode/
+
+# windows
+Thumbs.db
